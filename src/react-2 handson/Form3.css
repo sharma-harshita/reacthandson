@@ -1,0 +1,35 @@
+label{
+    font-size: 25px;
+    font-family:'Times New Roman', Times, serif
+}
+
+
+input{
+    height: 50px;
+    width: 250px;
+    font-size: 20px;
+    border-radius: 40px;
+    background: #d6e7ec;
+}
+
+.data{
+    border: 2px solid black;
+    border-radius: 30px;
+    background: rgb(236, 151, 194);
+    height: 65px;
+    width: 462px;
+    margin: 20px;
+    padding: 10px;
+}
+
+.mainDiv{
+    display: flex;
+    margin: 80px;
+    background: #c3dce4;
+    border: 2px solid black;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 1200px;
+    max-width: 90%;
+}

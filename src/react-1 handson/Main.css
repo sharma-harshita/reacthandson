@@ -1,0 +1,35 @@
+button{
+    color: black;
+    background-color: lightblue;
+    margin: 50px;
+    padding: 10px;
+    border: 2px solid black;
+    border-radius: 42px;
+    height: 62px;
+    width: 260px;
+}
+
+.heading{
+    text-shadow: 4px 4px 4px aqua;;
+}
+
+button:hover{
+    background-color: aqua;
+}
+
+.comp{
+    border: 2px solid black;
+    border-radius: 40px;
+    height: 250px;
+    width: 500px;
+    margin: 50px;
+    padding: 20px;
+}
+
+
+.comp1{
+    background: aqua;
+}
+.comp2{
+    background: rgb(216, 140, 216);
+}
