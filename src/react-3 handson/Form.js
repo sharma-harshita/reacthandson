@@ -18,7 +18,7 @@ class Form extends React.Component {
     
     handleSubmit = (event) => {
         event.preventDefault()
-        const tempArray = [...this.state.users]
+        const tempArray = [...this.state.users];
         tempArray.push({ name: this.state.name, contact: this.state.contact, rating: this.state.rating })
         this.setState({ users: tempArray, showComponent:true, name: "", contact: "" , rating: ""})
     }
@@ -26,15 +26,14 @@ class Form extends React.Component {
     updateComponent = () =>{
         this.setState({showComponent:!this.state.showComponent})
     }
+
     render() {
         return (
             <div>
-            
             {this.state.showComponent 
                 ? 
                 <Form2 users={this.state.users} updateComponent={this.updateComponent}/>
                 : 
-                
                 <div className="formDiv">
                     <h1>EMPLOYEE FEEDBACK FORM</h1>
                 <form onSubmit={this.handleSubmit}>
@@ -58,5 +57,5 @@ class Form extends React.Component {
             )
         }
     }
-    
-    export default Form
+
+export default Form
