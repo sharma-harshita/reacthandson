@@ -7,12 +7,9 @@ export default class Test extends React.Component{
     }
 
     render(){
-        console.log(this.props);
-        return(
-            <div>
-                {this.props.data.name}
-                {this.props.data.category}
-            </div>
-        )
-    }
+        let langs = ["Ruby","ES6","Scala"]
+          return (<div>
+            {langs.map(it => <p>{it}</p>)}
+          </div>)
+      }
 }
